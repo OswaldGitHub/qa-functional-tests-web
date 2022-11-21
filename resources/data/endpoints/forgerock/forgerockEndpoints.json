@@ -1,0 +1,22 @@
+{
+  "endpoints":[
+    {
+      "env": "staging",
+      "endpoint" : [
+        {
+          "ssla": "openam/oauth2/realms/root/realms/ssla/access_token",
+          "br": "openam/oauth2/realms/root/realms/br/access_token"
+        }
+      ]
+    },
+    {
+      "env": "prod",
+      "endpoint" : [
+        {
+          "ssla": "openam/oauth2/realms/root/realms/ssla/access_token",
+          "br": "openam/oauth2/realms/root/realms/br/access_token"
+        }
+      ]
+    }
+  ]
+}

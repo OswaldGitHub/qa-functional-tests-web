@@ -1,0 +1,16 @@
+{
+  "tokens": [
+    {
+      "name": "forgeRock",
+      "staging": {
+        "ssla": "Basic ZHR2Z286Y2FuZ2V0aW5hbQ==",
+        "br": "Basic ZHR2Z286Y2FuZ2V0aW5hbQ=="
+      },
+      "prod": {
+        "ssla": "Basic ZHR2Z286TmQza1lhaUVHOA==",
+        "br": "Basic ZHR2Z286TmQza1lhaUVHOA=="
+      }
+    }
+  ]
+}
+

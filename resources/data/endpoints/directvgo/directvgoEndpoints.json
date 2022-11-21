@@ -1,0 +1,23 @@
+{
+  "endpoints":[
+    {
+      "name": "layout",
+      "envs": [
+        {
+          "env": "staging",
+          "endpoint": {
+            "carousels": "layout/v{version}/carousels",
+            "pages": "layout/v{version}/pages/{page}"
+          }
+        },
+        {
+          "env": "prod",
+          "endpoint": {
+            "carousels": "layout/v{version}/carousels",
+            "pages": "layout/v1/pages/inicio"
+          }
+        }
+      ]
+    }
+  ]
+}

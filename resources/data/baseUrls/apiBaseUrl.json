@@ -1,0 +1,49 @@
+{
+  "urls":[
+    {
+      "name": "forgeRock",
+      "envs":
+        {
+          "dev": "https://aisfrstage.directvla.com",
+          "qa.com": "https://aisfrstage.directvla.com",
+          "qa.web": "https://aisfrstage.directvla.com",
+          "rt.com": "https://aisfrstage.directvla.com",
+          "rt.web": "https://aisfrstage.directvla.com",
+          "si": "https://aisfrstage.directvla.com",
+          "preprod": "https://prodrock.directvgo.com",
+          "staging": "https://prodrock.directvgo.com",
+          "prod": "https://directvgo.com/"
+        }
+    },
+    {
+      "name": "directvgoApi",
+      "envs":
+        {
+        "dev": "https://dev.directvgo.com",
+        "qa.com": "https://directvgo:DTVGo4.Life!@qa.com.directvgo.com",
+        "qa.web": "https://directvgo:DTVGo4.Life!@qa.web.directvgo.com",
+        "rt.com": "https://rt.api.directvgo.com",
+        "rt.web": "https://rt.api.directvgo.com",
+        "si": "https://si.directvgo.com",
+        "preprod": "https://api.directvgo.com",
+        "staging": "https://api.directvgo.com",
+        "prod": "https://directvgo.com/"
+        }
+    },
+    {
+      "name": "directvgoWeb",
+      "envs":
+        {
+        "dev": "https://dev.directvgo.com",
+        "qa.com": "https://directvgo:DTVGo4.Life!@qa.com.directvgo.com",
+        "qa.web": "https://directvgo:DTVGo4.Life!@qa.web.directvgo.com",
+        "rt.com": "https://rt.com.directvgo.com",
+        "rt.web": "https://rt.web.directvgo.com",
+        "si": "https://si.directvgo.com",
+        "preprod": "https://directvgo:DTVGo4.Life!@preprod.directvgo.com",
+        "staging": "https://staging.directvgo.com",
+        "prod": "https://directvgo.com/"
+        }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "appContainer": "#dtvApp",
+    "container": ".dtv-modal",
+    "title": ".dtv-modal h2",
+    "description": ".dtv-content-bottom-info-desc",
+    "allowButton": ".dtv-button.dtv-modal-primary",
+    "rejectButton": ".dtv-button.dtv-modal-secondary"
+}

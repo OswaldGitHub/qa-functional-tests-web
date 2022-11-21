@@ -1,0 +1,14 @@
+{
+  "dataScript": "script[type='application/json'",
+  "backButton" : ".dtv-label-go-home",
+  "userField" : ".dtv-input-wrapper input",
+  "passwordField" : ".dtv-input-password input",
+  "passwordEyeIcon" : ".eye-icon",
+  "helpLink" : "a[href*='faq']",
+  "providersLink" : ".dtv-login-link-partner",
+  "forgotPasswordLink" : ".dtv-login-link-forgot:nth-child(1)",
+  "loginButton" : ".dtv-login-btn",
+  "midirectvLink" : "a[href*='midirectv/registration']",
+  "signupLink" : "a[href*='selec'], a[href*='/plan'], a[href*='/cadastrar']",
+  "errorToast": ".dtv-toast.error"
+}

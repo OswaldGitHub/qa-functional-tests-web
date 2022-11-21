@@ -1,0 +1,32 @@
+{
+  "urls": [
+    {
+      "env" : "staging",
+      "urlName": [
+        {
+          "name": "login",
+          "envs": [
+            {
+              "ssla": "/iniciar-sesion",
+              "br": "/iniciar-sessao"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "env" : "prod",
+      "urlName": [
+        {
+          "name": "login",
+          "envs": [
+            {
+              "ssla": "/iniciar-sesion",
+              "br": "/iniciar-sessao"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

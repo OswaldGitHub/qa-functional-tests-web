@@ -1,0 +1,32 @@
+{
+  "preconnectTag": "link[rel='preconnect']",
+  "container": ".dtv-nav-bar-content",
+  "directvGoLogo": ".dtv-logo",
+  "selfcareContainer": "[data-cy=headerContainer]",
+  "commerceTabs": {
+    "home": ".dtv-logo",
+    "plan": ".dtv-nav-bar-content-links a[href*='plan']",
+    "extras": ".dtv-nav-bar-content-links a[href*='extras']",
+    "live": "dtv-nav-bar-content-links a[href*='vivo']",
+    "sports": ".dtv-nav-bar-content-links a[href*='portes']",
+    "onDemand": ".dtv-nav-bar-content-links a[href*='titulos']"
+  },
+  "privateTabs": {
+    "home": ".dtv-navlinks a[href*='main']",
+    "live": ".dtv-navlinks a[href*='live']",
+    "onDemand": ".dtv-navlinks a[href*='watch']",
+    "sports": ".dtv-navlinks a[href*='sports']",
+    "kids": ".dtv-navlinks a[href*='kids']"
+  },
+  "searchBar": {
+    "container": ".dtv-input-search",
+    "searchIcon": ".dtv-icon-magnifying-glass",
+    "searchText": "[name='search']",
+    "closeIcon": ".dtv-icon-close"
+  },
+  "watchlistButton": ".dtv-link-my-list",
+  "loginButton": ".dtv-button-login",
+  "tryItFreeButton": ".dtv-button-signup",
+  "username": "#lblUserName",
+  "subscriptionButtonFrontporchBanner": ".dtv-notification-link"
+}
