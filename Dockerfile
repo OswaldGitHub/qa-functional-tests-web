@@ -64,9 +64,9 @@ RUN sudo dnf clean all
 RUN dnf upgrade -y --refresh \
   && dnf install -y \
     unzip \
-    "chromedriver~${CHROMIUM_VERSION}*" \
-    "chromium~${CHROMIUM_VERSION}*" \
-    "firefox~${FIREFOX_VERSION}*" \
+    chromedriver \
+    chromium \
+    firefox \
     npm \
     nodejs \
     python3-pip \
