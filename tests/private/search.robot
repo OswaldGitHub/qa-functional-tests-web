@@ -10,22 +10,6 @@ Library    pabot.PabotLib
 Test Setup     Full login with user  standard
 Test Teardown  Close session
 
-RUN dnf upgrade -y --refresh \
-  && dnf install -y \
-    unzip \
-    chromedriver \
-    chromium \
-    firefox \
-    npm \
-    nodejs \
-    python3-pip \
-    tzdata \
-    xorg-x11-server-Xvfb-${XVFB_VERSION}* \
-  && dnf clean all
-
-[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=105.0.5195.125)
-
 *** Test Cases ***
 Open Movie PDP from search
     [Tags]  @dtv0189 @co @cl @ec @pe @ar @uy @br @mx @search @private @smoke @sanity @regression @fullRegression
